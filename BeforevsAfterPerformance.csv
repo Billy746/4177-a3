@@ -1,0 +1,17 @@
+"ScenarioEndpointMetricBeforeAfterImprovementLight Load/api/productsAvg Response (ms)1,45089038.6%Light Load/api/products95th Percentile (ms)2,1801,24043.1%Light Load/api/productsThroughput (req/s)6.29.858.1%Light Load/api/productsError Rate (%)1.80.288.9%Light Load/api/auth/loginAvg Response (ms)89062030.3%Light Load/api/users/profileAvg Response (ms)1,12065042.0%Light Loadmain.js bundleAvg Response (ms)2,34078066.7%Moderate Load/api/productsAvg Response (ms)3,2001,65048.4%Moderate Load/api/products95th Percentile (ms)4,8502,18055.1%Moderate Load/api/productsThroughput (req/s)14.224.673.2%Moderate Load/api/productsError Rate (%)6.31.182.5%Moderate Load/api/auth/loginAvg Response (ms)1,9801,18040.4%Moderate Load/api/users/profileAvg Response (ms)2,6801,32050.7%Moderate Loadmain.js bundleAvg Response (ms)4,1201,28068.9%",Endpoint,Metric,Before,After,Improvement
+,,,,,
+Light Load,/api/products,Avg Response (ms),"1,450",890,38.60%
+Light Load,/api/products,95th Percentile (ms),"2,180","1,240",43.10%
+Light Load,/api/products,Throughput (req/s),6.2,9.8,58.10%
+Light Load,/api/products,Error Rate (%),1.8,0.2,88.90%
+Light Load,/api/auth/login,Avg Response (ms),890,620,30.30%
+Light Load,/api/users/profile,Avg Response (ms),"1,120",650,42.00%
+Light Load,main.js bundle,Avg Response (ms),"2,340",780,66.70%
+,,,,,
+Moderate Load,/api/products,Avg Response (ms),"3,200","1,650",48.40%
+Moderate Load,/api/products,95th Percentile (ms),"4,850","2,180",55.10%
+Moderate Load,/api/products,Throughput (req/s),14.2,24.6,73.20%
+Moderate Load,/api/products,Error Rate (%),6.3,1.1,82.50%
+Moderate Load,/api/auth/login,Avg Response (ms),"1,980","1,180",40.40%
+Moderate Load,/api/users/profile,Avg Response (ms),"2,680","1,320",50.70%
+Moderate Load,main.js bundle,Avg Response (ms),"4,120","1,280",68.90%

@@ -1,0 +1,9 @@
+Severity,Vulnerability,Endpoint,Description
+High,Missing Anti-CSRF Tokens,/api/users/profile,State-changing operations lack CSRF protection
+High,SQL Injection Risk,/api/products/search,User input not properly sanitized
+High,Missing Security Headers,All endpoints,"CSP, HSTS, and other security headers absent"
+,,,
+Medium,Cross-Site Scripting (XSS),/api/comments,User input displayed without sanitization
+Medium,Insecure Authentication,/api/auth/login,Weak session management
+Medium,Information Disclosure,/api/debug,Debug endpoints expose sensitive data
+Medium,Missing Input Validation,/api/users/update,Insufficient input validation and sanitization
